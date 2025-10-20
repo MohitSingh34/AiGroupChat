@@ -74,7 +74,7 @@ const App: React.FC = () => {
 
   const getSenderName = (sender: Sender): string => {
     switch (sender) {
-      case Sender.User: return 'User';
+      case Sender.User: return 'Mohit';
       case Sender.Deepseek: return 'Deepseek';
       case Sender.ChatGPT: return 'ChatGPT';
       case Sender.Gemini: return 'Gemini';

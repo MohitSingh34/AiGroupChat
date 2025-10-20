@@ -1,26 +1,26 @@
 import React from 'react';
 
 export const UserIcon = () => (
-  <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-xl">
-    U
+  <div className="h-10 px-4 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">
+    Mohit
   </div>
 );
 
 export const DeepseekIcon = () => (
-  <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white font-bold text-xl">
-    D
+  <div className="h-10 px-4 rounded-full bg-green-500 flex items-center justify-center text-white font-bold text-sm">
+    Deepseek
   </div>
 );
 
 export const ChatGPTIcon = () => (
-  <div className="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-xl">
-    C
+  <div className="h-10 px-4 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-sm">
+    ChatGPT
   </div>
 );
 
 export const GeminiIcon = () => (
-  <div className="w-10 h-10 rounded-full bg-indigo-500 flex items-center justify-center text-white font-bold text-xl">
-    G
+  <div className="h-10 px-4 rounded-full bg-indigo-500 flex items-center justify-center text-white font-bold text-sm">
+    Gemini
   </div>
 );
 
