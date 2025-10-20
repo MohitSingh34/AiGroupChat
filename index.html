@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Group Chat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        /* Xubuntu (Dark) Theme */
+        --color-chat-bg: #1e1e2d;
+        --color-header-bg: #2a2a40;
+        --color-msg-user: #4a4a6a;
+        --color-msg-ai: #2e2e48;
+        --color-input-bg: #2e2e48;
+        --color-btn-primary: #8a2be2;
+        --color-btn-hover: #9932cc;
+        --color-text-primary: #ffffff;
+        --color-text-secondary: #a0a0b0;
+        --color-border: #4a4a6a;
+      }
+      .theme-windows {
+        /* Windows (Light) Theme */
+        --color-chat-bg: #f3f3f3;
+        --color-header-bg: #e6e6e6;
+        --color-msg-user: #cce5ff;
+        --color-msg-ai: #ffffff;
+        --color-input-bg: #ffffff;
+        --color-btn-primary: #0078d4;
+        --color-btn-hover: #005a9e;
+        --color-text-primary: #201f1e;
+        --color-text-secondary: #605e5c;
+        --color-border: #c8c6c4;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'chat-bg': 'var(--color-chat-bg)',
+              'header-bg': 'var(--color-header-bg)',
+              'msg-user': 'var(--color-msg-user)',
+              'msg-ai': 'var(--color-msg-ai)',
+              'input-bg': 'var(--color-input-bg)',
+              'btn-primary': 'var(--color-btn-primary)',
+              'btn-hover': 'var(--color-btn-hover)',
+              'text-primary': 'var(--color-text-primary)',
+              'text-secondary': 'var(--color-text-secondary)',
+              'border-theme': 'var(--color-border)',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+  </body>
+</html>
